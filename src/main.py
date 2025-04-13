@@ -18,7 +18,7 @@ def cards_dealing(cycle=1):
 if __name__ == '__main__':
 
     time_start = time()
-    results = cards_dealing(25_989_60)
+    results = cards_dealing(25_989_600)
     time_end = time()
     total_time = time_end - time_start
     print(f'время работы: {round(total_time, 2)}')
