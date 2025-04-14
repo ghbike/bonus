@@ -1,6 +1,3 @@
-from deck import Deck
-
-
 class Hand:
     number = [0]
 
@@ -55,10 +52,12 @@ class Hand:
                 else:
                     return "3oak"
             case 2:
-                if self.sorted_cards[1][1] == 2:
-                    return "2 Pairs"
-                else:
-                    return "Pair"
+                return "No game"
+                # Pair and 2 Pairs are No game
+                # if self.sorted_cards[1][1] == 2:
+                #     return "2 Pairs"
+                # else:
+                #     return "Pair"
             case 1:
                 if not self.is_straight():
                     if not self.is_flush():
