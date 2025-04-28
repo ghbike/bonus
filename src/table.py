@@ -10,7 +10,7 @@ class Table:
     table_float = 0
     jp = 50_000
     jp_start = 50_000
-    increment = .015
+    increment = .05
     min_bet = 5
     max_bet = 25
     bets = (5, 5, 5, 5, 5, 5, 10, 15, 20, 25)  # average = 10
